@@ -17,20 +17,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
   <build>
     <finalName>Gfeed</finalName>
-    <plugins>
-    <plugin>
-		<groupId>org.apache.tomcat.maven</groupId>
-		<artifactId>tomcat9-maven-plugin</artifactId>
-		<version>2.2</version>
-		<configuration>
-			<url>http://localhost:8080/manager/text</url>
-			<server>TomcatServer</server>
-			<path>/mkyongWebApp</path>
-		</configuration>
-	</plugin>
-	</plugins>
   </build>
 </project>
