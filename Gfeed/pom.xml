@@ -23,9 +23,9 @@
 		<artifactId>tomcat9-maven-plugin</artifactId>
 		<version>2.2</version>
 		<configuration>
-			<url>http://localhost:8080/manager/text</url>
+			<url>http://localhost:8080/home/ec2-user/tomcat/tomcat9/webapps</url>
 			<server>TomcatServer</server>
-			<path>/mkyongWebApp</path>
+			<path>/gfeed</path>
 		</configuration>
 	</plugin>
 	</plugins>
